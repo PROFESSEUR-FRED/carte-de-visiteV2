@@ -73,7 +73,7 @@ class VisitCard extends StatelessWidget {
                   // ),
                   ElevatedButton(
                     onPressed: () {
-                    Navigator.push( // l'on pouvais bloquer le retour en arriere en utilisant pushAndRemoveUntil
+                    Navigator.push(
                 context ,
                 MaterialPageRoute ( builder : ( context ) => const Detail()
                 ),
